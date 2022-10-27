@@ -1,0 +1,21 @@
+{
+    "name": "felipeucros7/practica_php",
+    "description": "Practica de php con composer.",
+    "type": "no",
+    "license": "no",
+    "autoload": {
+        "psr-4": {
+            "Felipeucros7\\PracticaPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Felipe Ortiz",
+            "email": "jfoo.npy@gmail.com"
+        }
+    ],
+    "require": {
+	"php": ">=7.0.0",
+        "illuminate/database": "^7.30"
+    }
+}
